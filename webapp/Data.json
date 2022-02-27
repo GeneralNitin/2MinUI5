@@ -1,23 +1,35 @@
 {
-    "title": "2 minutes of SAP UI5",
-    "episodes": [
-        {
-            "title": "Getting Started, XML",
-            "index": "#1",
-            "published": "Jan 17 2022",
-            "lenght": "139"
-        },
-        {
-            "title": "JS Controllers",
-            "index": "#2",
-            "published": "Jan 17 2022",
-            "lenght": "123"
-        },
-        {
-            "title": "JSON Models, Data Binding",
-            "index": "#3",
-            "published": "Jan 17 2022",
-            "lenght": "140"
-        }
-    ]
+  "title": "2 minutes of SAP UI5",
+  "episodes": [
+    {
+      "id": 7771,
+      "uid": "608d2b9f-6599-4218-9d89-1868f0595244",
+      "brand": "Electrolux",
+      "equipment": "Trouser press"
+    },
+    {
+      "id": 4605,
+      "uid": "de6072af-97d4-434a-9379-0f75767c57a7",
+      "brand": "Electrolux",
+      "equipment": "Micathermic heater"
+    },
+    {
+      "id": 7242,
+      "uid": "005c30ca-7b52-4892-a9f8-fad98dbe1fac",
+      "brand": "Siemens",
+      "equipment": "Aroma lamp"
+    },
+    {
+      "id": 5220,
+      "uid": "80197359-2ec4-4090-b9cc-4bb782851c3c",
+      "brand": "Sharp",
+      "equipment": "Cold-pressed juicer"
+    },
+    {
+      "id": 4320,
+      "uid": "8169e756-9189-4062-a648-7ce43820387f",
+      "brand": "Fagor",
+      "equipment": "Clothes iron"
+    }
+  ]
 }

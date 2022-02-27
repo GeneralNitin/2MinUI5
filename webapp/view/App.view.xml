@@ -14,8 +14,8 @@
 
         <items>
             <StandardListItem
-                title="{title}"
-                description="{index}"/>
+                title="{brand}"
+                description="{equipment}"/>
         </items>
     </List>
 </mvc:View>
