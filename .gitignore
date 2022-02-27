@@ -85,6 +85,7 @@ Thumbs.db
 
 # dependencies
 /node_modules
+!**/node_modules
 /.pnp
 .pnp.js
 
@@ -104,3 +105,4 @@ Thumbs.db
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+node_modules

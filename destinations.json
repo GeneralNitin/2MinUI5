@@ -1,6 +1,4 @@
 {
-    ""
-}{
     "init_data": {
         "subaccount": {
             "existing_destinations_policy": "update",
@@ -10,7 +8,7 @@
                     "Authentication": "NoAuthentication",
                     "ProxyType": "Internet",
                     "Type": "HTTP",
-                    "URL": "https://youtube.googleapis.com"
+                    "URL": "http://random-data-api.com"
                 }
             ]
         }
