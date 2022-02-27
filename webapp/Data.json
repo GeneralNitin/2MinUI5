@@ -1,0 +1,23 @@
+{
+    "title": "2 minutes of SAP UI5",
+    "episodes": [
+        {
+            "title": "Getting Started, XML",
+            "index": "#1",
+            "published": "Jan 17 2022",
+            "lenght": "139"
+        },
+        {
+            "title": "JS Controllers",
+            "index": "#2",
+            "published": "Jan 17 2022",
+            "lenght": "123"
+        },
+        {
+            "title": "JSON Models, Data Binding",
+            "index": "#3",
+            "published": "Jan 17 2022",
+            "lenght": "140"
+        }
+    ]
+}

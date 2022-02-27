@@ -6,4 +6,16 @@
         text="increment by 1"
         press=".incrementBy1"/>
     <Text id="counter" text="0"/>
+
+    <List
+        id="episodeOverview"
+        headerText="{/title}"
+        items="{/episodes}">
+
+        <items>
+            <StandardListItem
+                title="{title}"
+                description="{index}"/>
+        </items>
+    </List>
 </mvc:View>
