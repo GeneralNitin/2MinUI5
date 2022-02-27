@@ -9,13 +9,16 @@
 
     <List
         id="episodeOverview"
-        headerText="{/title}"
-        items="{/episodes}">
+        headerText="{apiDataModel>/0/brand}"
+        items="{apiDataModel>/}"
+        growingThreshold="15"
+        growing="true"
+        growingScrollToLoad="true">
 
         <items>
             <StandardListItem
-                title="{brand}"
-                description="{equipment}"/>
+                title="{apiDataModel>brand}"
+                description="{apiDataModel>equipment}"/>
         </items>
     </List>
 </mvc:View>

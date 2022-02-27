@@ -9,5 +9,13 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "ui5-middleware-cfdestination": "^0.8.3"
+  },
+  "ui5": {
+    "dependencies": [
+      "ui5-middleware-cfdestination"
+    ]
+  }
 }

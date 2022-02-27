@@ -1,0 +1,19 @@
+{
+    "welcomeFile": "index.html",
+    "authenticationMethod": "none",
+    "routes": [
+        {
+            "source": "/urlPlaceholder(.*)",
+            "target": "$1",
+            "destination": "urlDestination",
+            "authenticationType": "none",
+            "csrfProtection": false
+        },
+        {
+            "source": "^(.*)$",
+            "target": "$1",
+            "authenticationType": "none",
+            "localDir": "webapp/"
+        }
+    ]
+}

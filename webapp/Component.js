@@ -9,11 +9,7 @@ sap.ui.define([
                 "interfaces": [
                     "sap.ui.core.IAsyncContentCreation"
                 ],
-                "rootView": {
-                    "viewName": "sap.ui.demo.view.App",
-                    "type": "XML",
-                    "id": "app"
-                }
+                manifest: "json"
             },
             init: function() {
                 UIComponent.prototype.init.apply(this, arguments);

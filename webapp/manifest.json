@@ -1,5 +1,26 @@
 {
     "sap.app": {
-        "id": "ui5"
+        "id": "ui5",
+        "applicationVersion": {
+            "version": "1.0.0"
+        },
+        "dataSources": {
+            "randomDataAPI": {
+                "uri": "/urlPlaceholder/api/appliance/random_appliance?size=30",
+                "type": "JSON"
+            }
+        }
+    },
+    "sap.ui5": {
+        "rootView": {
+            "viewName": "sap.ui.demo.view.App",
+            "type": "XML",
+            "id": "app"
+        },
+        "models": {
+            "apiDataModel": {
+                "dataSource": "randomDataAPI"
+            }
+        }
     }
 }
