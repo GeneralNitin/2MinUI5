@@ -14,10 +14,6 @@ sap.ui.define([
          * @override
          */
         onInit: function() {
-            let oModel = new JSONModel(
-                sap.ui.require.toUrl("sap/ui/demo/Data.json")
-            );
-            this.getView().setModel(oModel);
         }
     })
 });

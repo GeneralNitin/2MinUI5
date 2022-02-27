@@ -13,13 +13,20 @@
         data-sap-ui-libs="sap.m"
         data-sap-ui-compatVersion="edge"
         data-sap-ui-async="true"
-        data-sap-ui-onInit="module:sap/ui/demo/index"
+        data-sap-ui-onInit="module:sap/ui/core/ComponentSupport"
         data-sap-ui-resourceroots='{
             "sap.ui.demo": "./"
         }'>
     </script>
 </head>
 <body class="sapUiBody" id="content">
-    
+    <div
+        data-sap-ui-component
+        data-name="sap.ui.demo"
+        data-id="container"
+        data-settings='{
+            "id": "demo"
+        }'>
+    </div>
 </body>
 </html>
