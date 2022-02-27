@@ -85,8 +85,12 @@ Thumbs.db
 
 # dependencies
 /node_modules
+!**/node_modules
 /.pnp
 .pnp.js
+
+/approuter/webapp
+/mta_archives
 
 # testing
 /coverage
@@ -104,3 +108,4 @@ Thumbs.db
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+node_modules
