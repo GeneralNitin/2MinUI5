@@ -89,6 +89,9 @@ Thumbs.db
 /.pnp
 .pnp.js
 
+/approuter/webapp
+/mta_archives
+
 # testing
 /coverage
 
