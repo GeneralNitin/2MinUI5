@@ -1,24 +1,23 @@
-<mvc:View
-    xmlns="sap.m"
-    xmlns:mvc="sap.ui.core.mvc"
-    controllerName="sap.ui.demo.controller.App">
-    <Button
-        text="increment by 1"
-        press=".incrementBy1"/>
-    <Text id="counter" text="0"/>
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" controllerName="sap.ui.demo.controller.App">
+    <App>
+        <pages>
+            <Page>
+                <content>
+                    <Panel id="appPanel" headerText="Hello, Dev! 👋">
+                        <content>
+                            <Button text="increment by 1" press=".incrementBy1" />
+                            <Text id="counter" text="0" />
 
-    <List
-        id="episodeOverview"
-        headerText="{apiDataModel>/0/brand}"
-        items="{apiDataModel>/}"
-        growingThreshold="15"
-        growing="true"
-        growingScrollToLoad="true">
+                            <List id="episodeOverview" headerText="{apiDataModel>/0/brand}" items="{apiDataModel>/}" growingThreshold="15" growing="true" growingScrollToLoad="true">
 
-        <items>
-            <StandardListItem
-                title="{apiDataModel>brand}"
-                description="{apiDataModel>equipment}"/>
-        </items>
-    </List>
+                                <items>
+                                    <StandardListItem title="{apiDataModel>brand}" description="{apiDataModel>equipment}" />
+                                </items>
+                            </List>
+                        </content>
+                    </Panel>
+                </content>
+            </Page>
+        </pages>
+    </App>
 </mvc:View>

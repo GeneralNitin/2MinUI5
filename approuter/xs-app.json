@@ -1,6 +1,6 @@
 {
     "welcomeFile": "index.html",
-    "authenticationMethod": "none",
+    "authenticationMethod": "route",
     "routes": [
         {
             "source": "/urlPlaceholder(.*)",
@@ -10,9 +10,14 @@
             "csrfProtection": false
         },
         {
+            "source": "^/user-api(.*)",
+            "target": "$1",
+            "service": "sap-approuter-userapi"
+        },
+        {
             "source": "^(.*)$",
             "target": "$1",
-            "authenticationType": "none",
+            "authenticationType": "xsuaa",
             "localDir": "webapp/"
         }
     ]

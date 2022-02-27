@@ -14,6 +14,16 @@ sap.ui.define([
          * @override
          */
         onInit: function() {
+            let controller = this;
+            let reqSettings = {
+                "url": "/user-api/currentUser",
+                "method": "GET"
+            }
+            jQuery.ajax(reqSettings).done(function (response) {
+                let userInfo = JSON.parse(response);
+                let userFirstName = userInfo.firstname;
+                controller.getView().byId("appPanel").setHeaderText(`Hello, ${userFirstName}! 👋`)
+            });
         }
     })
 });
